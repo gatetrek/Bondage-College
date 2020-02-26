@@ -655,7 +655,7 @@ var AssetFemale3DCG = [
 		Priority: 5,
 		AllowNone: false,
 		Color: ["#6a3628", "#202020", "#dcc787", "#6c2132", "#999999", "#dddddd", "#e781b1", "#81e7b1", "#81b1e7", "#eeee99", "#ee9999", "#ee99ee"],
-		AllowPose: ["Suspension", "Hogtied"],
+		AllowPose: ["Suspension", "Hogtied", "AllFours"],
 		Left: 50,
 		Top: 0,
 		Asset: ["HairNone", "HairBack1", "HairBack2", "HairBack4", "HairBack10", "HairBack14", "HairBack15", "HairBack16", "HairBack17", "HairBack18", "HairBack19", "HairBack20", "HairBack5", "HairBack8", "HairBack11", "HairBack6", "HairBack21", "HairBack22",
