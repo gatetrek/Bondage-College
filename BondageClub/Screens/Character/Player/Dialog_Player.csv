@@ -445,6 +445,7 @@ RopeBondageBoxTie,,,Box Tie
 RopeBondageHogtied,,,Hogtie
 RopeBondageSuspension,,,Suspension Tie
 RopeBondageSuspensionHogtied,,,Suspension Hogtie
+RopeBondageAllFours,,,All Fours
 RopeBondageCrotch,,,Crotch Rope
 RopeBondageHarness,,,Body Harness
 RopeBondageDiamond,,,Diamond Style
@@ -459,6 +460,7 @@ LegRopeSetSuspension,,,SourceCharacter uses the rope on TargetCharacter to do a 
 ArmsRopeSetBoxTie,,,SourceCharacter uses the rope on TargetCharacter to do a box tie.
 ArmsRopeSetHogtied,,,SourceCharacter uses the rope on TargetCharacter to do a hogtie.
 ArmsRopeSetSuspensionHogtied,,,SourceCharacter uses the rope on TargetCharacter to do a suspension hogtie.
+ArmsRopeSetAllFours,,,SourceCharacter uses the rope on TargetCharacter to have her crawling on all fours.
 Intensity-1,,,Item intensity: Disabled
 Intensity0,,,Item intensity: Low
 Intensity1,,,Item intensity: Medium
@@ -908,7 +910,7 @@ ChainBondageBoxTie,,,Box Tie
 ChainBondageHogtied,,,Hogtie
 ChainBondageSuspension,,,Suspension Tie
 ChainBondageSuspensionHogtied,,,Suspension Hogtie
-ChainBondageAllFours,,,AllFours
+ChainBondageAllFours,,,All Fours
 LegChainSetBasic,,,SourceCharacter uses the chain on TargetCharacter to do a basic tie.
 LegChainSetStrict,,,SourceCharacter uses the chain on TargetCharacter to do a strict tie.
 LegChainSetSuspension,,,SourceCharacter uses the chain on TargetCharacter to do a suspension tie.
