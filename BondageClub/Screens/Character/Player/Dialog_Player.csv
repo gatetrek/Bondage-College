@@ -908,9 +908,11 @@ ChainBondageBoxTie,,,Box Tie
 ChainBondageHogtied,,,Hogtie
 ChainBondageSuspension,,,Suspension Tie
 ChainBondageSuspensionHogtied,,,Suspension Hogtie
+ChainBondageAllFours,,,AllFours
 LegChainSetBasic,,,SourceCharacter uses the chain on TargetCharacter to do a basic tie.
 LegChainSetStrict,,,SourceCharacter uses the chain on TargetCharacter to do a strict tie.
 LegChainSetSuspension,,,SourceCharacter uses the chain on TargetCharacter to do a suspension tie.
 ArmsChainSetBoxTie,,,SourceCharacter uses the chain on TargetCharacter to do a box tie.
 ArmsChainSetHogtied,,,SourceCharacter uses the chain on TargetCharacter to do a hogtie.
 ArmsChainSetSuspensionHogtied,,,SourceCharacter uses the Chain on TargetCharacter to do a suspension hogtie.
+ArmsChainSetAllFours,,,SourceCharacter uses the Chain on TargetCharacter to have her crawling on all fours.

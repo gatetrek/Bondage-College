@@ -1296,10 +1296,10 @@ var AssetFemale3DCG = [
 					{ Name: "Flowers", AllowColorize: true }
 				]
 			},
-			{ Name: "Chains", Extended: true, SelfBondage: false, Value: 90, AllowLock: true, SetPose: ["BackBoxTie"], AllowType: ["Hogtied", "SuspensionHogtied"], BuyGroup: "Chains", Effect: ["Block", "Prone"], Time: 30, Difficulty: 5, RemoveItemOnRemove: [{ Name: "SuspensionChains", Group: "ItemHidden" }] },
+			{ Name: "Chains", Extended: true, SelfBondage: false, Value: 90, AllowLock: true, SetPose: ["BackBoxTie"], AllowType: ["Hogtied", "SuspensionHogtied", "AllFours"], BuyGroup: "Chains", Effect: ["Block", "Prone"], Time: 30, Difficulty: 5, RemoveItemOnRemove: [{ Name: "SuspensionChains", Group: "ItemHidden" }] },
 			{ Name: "ChainLeashHolding", Random: false, SelfBondage: false, Priority: 35, Value: -1, Time: 3, RemoveTime: 3, Difficulty: 1, Prerequisite: ["NotSuspended", "NotHogtied"] },
 			{
-			    Name: "PetCrawler", Value: 80, SetPose: ["AllFours"], SelfBondage: false, Priority: 39, Effect: ["Block", "Prone"], Time: 20, Difficulty: 10, AllowLock: true,
+			    Name: "PetCrawler", Random: false, Value: 80, SetPose: ["AllFours"], SelfBondage: false, Priority: 39, Effect: ["Block", "Prone"], Time: 20, Difficulty: 10, AllowLock: true,
 	            Hide: ["ItemBoots", "Cloth", "Suit", "Panties", "Bra"], 
 				HideItem: ["ItemButtRaccoonTailPlug", "TailStrapsRaccoonTailStrap", "ItemButtKittenTail1", "TailStrapsKittenTail1", "ItemNipplesPiercingsNippleChastityPiercing2", "ItemTorsoAdultBabyHarness", "ItemTorsoCorset2", "ItemTorsoCorset3", "ItemNipplesPiercingsNippleChastityPiercing1", "ItemNipplesChainTassles", "ItemNipplesHeartPasties", "ItemNipplesNippleTape", "ItemNipplesKittyPasties"],
 				Block: ["ItemLegs", "ItemFeet"],
@@ -1878,11 +1878,11 @@ var AssetFemale3DCG = [
 		Top: -250,
 		Zone: [[10, 600, 90, 400], [400, 600, 90, 400]],
 		Asset: [
-			{ Name: "WoodenBox", RemoveAtLogin: true, Alpha: [[1, 1, 70, 999], [420, 1, 80, 999]], Effect: ["Prone", "Enclose", "BlindNormal", "GagLight", "Freeze"], Value: 60, Time: 15, RemoveTime: 10, Difficulty: -2, AllowLock: true, Prerequisite: ["NotSuspended", "NotHogtied", "AllFours"] },
+			{ Name: "WoodenBox", RemoveAtLogin: true, Alpha: [[1, 1, 70, 999], [420, 1, 80, 999]], Effect: ["Prone", "Enclose", "BlindNormal", "GagLight", "Freeze"], Value: 60, Time: 15, RemoveTime: 10, Difficulty: -2, AllowLock: true, Prerequisite: ["NotSuspended", "NotHogtied"] },
 			{ Name: "SmallWoodenBox", RemoveAtLogin: true, Alpha: [[1, 1, 70, 999], [420, 1, 80, 999]], SetPose: ["Kneel"], Effect: ["ForceKneel", "Prone", "Enclose", "BlindNormal", "GagLight", "Freeze"], Value: 40, Time: 15, RemoveTime: 10, Difficulty: -2, AllowLock: true, Prerequisite: ["NotSuspended", "NotHogtied", "NotMounted", "NotKneelingSpread", "NoFeetSpreader"] },
 			{ Name: "MilkCan", RemoveAtLogin: true, Effect: ["BlindHeavy", "Prone", "Enclose", "GagHeavy", "Freeze"], SetPose: ["Kneel"], Value: -1, Time: 15, RemoveTime: 10, Difficulty: 1 },
 			{ Name: "WaterCell", RemoveAtLogin: true, Effect: ["Prone", "Enclose", "GagMedium", "Freeze"], SetPose: ["Suspension", "LegsClosed"], Block: ["ItemFeet"], Value: -1, Time: 15, RemoveTime: 15, Difficulty: 1 },
-			{ Name: "Cage", RemoveAtLogin: true,  Alpha: [[1, 80, 105, 900], [410, 80, 105, 900]], Effect: ["Prone", "Enclose", "Freeze"], Value: 120, Time: 15, RemoveTime: 10, Difficulty: 4, AllowLock: true, Prerequisite: ["NotKneeling", "NotSuspended", "AllFours"] },
+			{ Name: "Cage", RemoveAtLogin: true,  Alpha: [[1, 80, 105, 900], [410, 80, 105, 900]], Effect: ["Prone", "Enclose", "Freeze"], Value: 120, Time: 15, RemoveTime: 10, Difficulty: 4, AllowLock: true, Prerequisite: ["NotKneeling", "NotSuspended"] },
 			{ Name: "LowCage", RemoveAtLogin: true, Alpha: [[1, 80, 75, 900], [400, 80, 95, 900]], SetPose: ["Kneel"], Effect: ["ForceKneel", "Prone", "Enclose", "Freeze"], Value: 80, Time: 15, RemoveTime: 10, Difficulty: 4, AllowLock: true, Prerequisite: ["NotSuspended", "NotHogtied", "NotMounted", "NotKneelingSpread", "NoFeetSpreader"] },
 			{ Name: "SaddleStand", RemoveAtLogin: true, Height: 30, Value: 100, Time: 10, Difficulty: -2, AllowLock: true, SetPose: ["LegsOpen"], Prerequisite: ["LegsOpen", "AllFours", "NotSuspended", "NotHogtied", "NotHorse", "NotKneeling", "NotKneelingSpread", "NotShackled", "StraitDressOpen"], Block: ["ItemPelvis", "ItemLegs", "ItemFeet"], Effect: ["Prone", "Freeze", "Mounted"] },
 			{ Name: "BurlapSack", SelfBondage: false, Priority : 29, Block: ["ItemArms", "ItemBreast", "ItemButt", "ItemFeet", "ItemHands", "ItemLegs", "ItemMisc", "ItemNipples", "ItemNipplesPiercings", "ItemPelvis", "ItemTorso", "ItemVulva", "ItemVulvaPiercings", "ItemBoots"], SetPose: ["Kneel", "BackElbowTouch"], Effect: ["ForceKneel", "Block", "Prone", "Freeze"], Hide: ["Cloth", "ClothLower", "Shoes", "ItemBoots", "ItemLegs", "ItemFeet", "ItemArms", "ItemButt", "TailStraps", "Wings", "BodyLower", "Socks", "ItemHidden", "ItemNipplesPiercings"], Difficulty: 5, Value: 35, Time: 15, RemoveTime: 6, Prerequisite: ["NotSuspended", "AllFours", "NotHogtied", "NotYoked", "NotMounted", "NotKneelingSpread", "NoFeetSpreader"] },
