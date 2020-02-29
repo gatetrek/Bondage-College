@@ -28,7 +28,7 @@ var AssetFemale3DCG = [
 		Priority: 31,
 		ParentGroup: "BodyUpper",
 		Clothing: true,
-		AllowPose: ["TapedHands", "BackBoxTie", "BackCuffs", "BackElbowTouch", "Bolero", "Yoked", "Hogtied"],
+		AllowPose: ["TapedHands", "BackBoxTie", "BackCuffs", "BackElbowTouch", "Bolero", "Yoked", "Hogtied", "AllFours"],
 		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"],
 		Asset: [
 			{ Name: "CollegeOutfit1", HideItem: ["ClothLowerLatexSkirt1", "ClothLowerLatexSkirt2", "ClothLowerSkirt1", "ClothLowerSkirt2", "ClothLowerSkirt3", "ClothLowerTennisSkirt1", "ClothLowerClothSkirt1", "ItemNipplesPiercingsRoundPiercing", "ItemNipplesPiercingsWeightedPiercing", "ItemDevicesStrapOnSmooth", "ItemDevicesStrapOnStuds"], Hide: ["ItemNeck"], Value: -1 },
@@ -1300,7 +1300,7 @@ var AssetFemale3DCG = [
 			{ Name: "ChainLeashHolding", Random: false, SelfBondage: false, Priority: 35, Value: -1, Time: 3, RemoveTime: 3, Difficulty: 1, Prerequisite: ["NotSuspended", "NotHogtied"] },
 			{
 			    Name: "PetCrawler", Random: false, Value: 80, SetPose: ["AllFours"], SelfBondage: false, Priority: 39, Effect: ["Block", "Prone"], Time: 20, Difficulty: 10, AllowLock: true,
-	            Hide: ["ItemBoots", "Cloth", "Suit", "Panties", "Bra"], 
+	            Hide: ["ItemBoots", "Suit", "Panties", "Bra"], 
 				HideItem: ["ItemButtRaccoonTailPlug", "TailStrapsRaccoonTailStrap", "ItemButtKittenTail1", "TailStrapsKittenTail1", "ItemNipplesPiercingsNippleChastityPiercing2", "ItemTorsoAdultBabyHarness", "ItemTorsoCorset2", "ItemTorsoCorset3", "ItemNipplesPiercingsNippleChastityPiercing1", "ItemNipplesChainTassles", "ItemNipplesHeartPasties", "ItemNipplesNippleTape", "ItemNipplesKittyPasties"],
 				Block: ["ItemLegs", "ItemFeet"],
 				Prerequisite: ["NoItemFeet", "NoItemLegs", "LegsOpen", "NotMounted", "NotHorse", "NotSuspended", "NotYoked", "NotKneelingSpread", "NoFeetSpreader", "StraitDressOpen" ] },
