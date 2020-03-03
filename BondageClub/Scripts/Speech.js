@@ -462,6 +462,54 @@ function SpeechStutter(C, CD) {
 	return CD;
 }
 
+// Makes the character stutter if she has a vibrating egg set to high Buzz
+function SpeechStutter(C, CD) {
+
+	if (CD == null) CD = "";
+	if (C.IsEgged()) {
+		var Buzz = C.Appearance
+			.filter(function (item) { return InventoryItemHasEffect(item, "Egged", true) && item.Property && item.Property.Buzz; })
+			.map(function (item) { return item.Property.Buzz; })
+			.sort()
+			.pop();
+		if (Buzz == null) Buzz = 0;
+
+		// If Buzz is lower than 1, no stuttering occurs and we return the regular text
+		if (Buzz <= 0) return CD;
+
+		var Par = false;
+		var CS = 1;
+		var seed = CD.length;
+
+		for (var L = 0; L < CD.length; L++) {
+
+			var H = CD.charAt(L).toLowerCase();
+			if (H == "(") Par = true;
+
+			// If we are not between brackets and at the start of a word, there's a chance to stutter that word
+			if (!Par && CS >= 0 && (H.match(/[[a-zа-яё]/i))) {
+
+				// Generate a pseudo-random number using a seed, so that the same text always stutters the same way.
+				var R = Math.sin(seed++) * 10000;
+				R = R - Math.floor(R);
+				R = Math.floor(R * 10) + 1;
+				R += (Buzz - 1);
+				if (CS == 1 || R >= 10) {
+					CD = CD.substring(0, L) + CD.charAt(L) + "-" + CD.substring(L, CD.length);
+					L += 2;
+				}
+				CS = -1;
+			}
+			if (H == ")") Par = false;
+			if (H == " ") CS = 0;
+		}
+		return CD;
+	}
+
+	// No stutter effect, we return the regular text
+	return CD;
+}
+
 // Makes Character talk like a Baby if the have drunk regression milk
 function SpeechBabyTalk(C, CD) {
 	if (CD == null) CD = "";
