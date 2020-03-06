@@ -925,7 +925,7 @@ var AssetFemale3DCG = [
 			{ Name: "BenWaBalls", Value: 30, Prerequisite: "AccessVulva", Time: 5, ExpressionTrigger: [{ Group: "Eyebrows", Name: "Soft", Timer: 5 }], Visible: false },
 			{ Name: "HeavyWeightClamp", Value: 30, Prerequisite: "AccessVulva", Time: 5, ExpressionTrigger: [{ Group: "Eyes", Name: "Closed", Timer: 5 }, { Group: "Eyebrows", Name: "Soft", Timer: 5 }] },
 			{ Name: "FullLatexSuitWand", Priority: 33, IsRestraint: true, Block: ["ItemVulvaPiercings"], AllowLock: true, Value: -1, Effect: ["Egged", "Block", "Prone"], AllowEffect: ["Egged", "Vibrating"], Time: 5, Difficulty: 12 },
-			{ Name: "ClitAndDildoVibratorbelt", Priority: 24, Effect: ["Egged"], Block: ["ItemPelvis"], AllowLock: true, Value: 100, Prerequisite: "AccessVulva", Time: 10, ExpressionTrigger: [{ Group: "Blush", Name: "Medium", Timer: 10 }], AllowEffect: ["Egged", "Vibrating"],
+			{ Name: "ClitAndDildoVibratorbelt", Priority: 11, Effect: ["Egged"], Hide: ["Panties"], Block: ["ItemPelvis"], AllowLock: true, Value: 100, Prerequisite: "AccessVulva", Time: 10, ExpressionTrigger: [{ Group: "Blush", Name: "Medium", Timer: 10 }], AllowEffect: ["Egged", "Vibrating"],
 			Layer: [
 					{ Name: "Belt", AllowColorize: true },
 					{ Name: "Crotch", AllowColorize: false }
