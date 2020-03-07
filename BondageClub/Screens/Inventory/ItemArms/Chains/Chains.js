@@ -86,6 +86,7 @@ function InventoryItemArmsChainsSetPose(NewType) {
 			DialogFocusItem.Property.SetPose = ["AllFours"];
 			DialogFocusItem.Property.Difficulty = 2;
 			CharacterSetFacialExpression(C, "Blush", "Medium", 10);
+			DialogFocusItem.Property.Block = ["ItemLegs", "ItemFeet", "ItemBoots"];
 			InventoryRemove(C, "ItemHidden");
 		}
 	}
