@@ -435,6 +435,8 @@ function SpeechStutter(C, CD) {
 				var Item = C.Appearance[A];
 				if (InventoryItemHasEffect(Item, "Egged", true) && Item.Property && Item.Property.Intensity && (typeof Item.Property.Intensity === "number") && !isNaN(Item.Property.Intensity) && (Item.Property.Intensity > Factor))
 					Factor = Item.Property.Intensity;
+				if (InventoryItemHasEffect(Item, "Egged", true) && Item.Property && Item.Property.Buzz && (typeof Item.Property.Buzz === "number") && !isNaN(Item.Property.Buzz) && (Item.Property.Buzz > Factor))
+					Factor = Item.Property.Buzz;
 			}
 
 		// If the intensity factor is lower than 1, no stuttering occurs and we return the regular text
