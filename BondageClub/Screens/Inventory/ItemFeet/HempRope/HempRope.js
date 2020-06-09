@@ -7,9 +7,14 @@ const HempRopeFeetOptions = [
 		Property: { Type: null, SetPose: ["LegsClosed"], Difficulty: 1 },
 		FeetGround: true
 	}, {
-		Name: "Mermaid",
+		Name: "FullBinding",
 		RequiredBondageLevel: 2,
-		Property: { Type: "Mermaid", SetPose: ["LegsClosed"], Difficulty: 2 },
+		Property: { Type: "FullBinding", SetPose: ["LegsClosed"], Difficulty: 2 },
+		FeetGround: true
+	}, {
+		Name: "Mermaid",
+		RequiredBondageLevel: 4,
+		Property: { Type: "Mermaid", SetPose: ["LegsClosed"], Difficulty: 4 },
 		FeetGround: true
 	}, {
 		Name: "Suspension",
@@ -18,11 +23,6 @@ const HempRopeFeetOptions = [
 		Expression: [{ Group: "Blush", Name: "High", Timer: 30 }],
 		FeetGround: false,
 		Suspension: false
-	}, {
-		Name: "FullBinding",
-		RequiredBondageLevel: 2,
-		Property: { Type: "FullBinding", SetPose: ["LegsClosed"], Difficulty: 2 },
-		FeetGround: true
 	},
 ];
 
