@@ -193,6 +193,7 @@ Socks,FootlessSocks1,Footless Socks
 Socks,ReverseBunnySuit,Reverse Bunny Suit Stockings
 Socks,LeatherSocks1,Short Leather Socks
 Socks,Pantyhose2,Crochless Pantyhose
+Socks,CowPrintedSocks,Cow Printed Socks
 Shoes,,Shoes
 Shoes,Shoes1,Style 1
 Shoes,Shoes2,Style 2
@@ -268,6 +269,7 @@ HairAccessory1,HairFeathers1,Feathers
 HairAccessory1,MouseEars1,Mouse Ears 1
 HairAccessory1,MouseEars2,Mouse Ears 2
 HairAccessory1,ElfEars,Elf Ears
+HairAccessory1,CowHorns,Cow Horns
 HairAccessory2,,Hair Accessory
 HairAccessory2,Ears1,Ears Small
 HairAccessory2,Ears2,Ears Large
@@ -300,6 +302,7 @@ HairAccessory2,HairFeathers1,Feathers
 HairAccessory2,MouseEars1,Mouse Ears 1
 HairAccessory2,MouseEars2,Mouse Ears 2
 HairAccessory2,ElfEars,Elf Ears
+HairAccessory2,CowHorns,Cow Horns
 Gloves,,Gloves
 Gloves,Gloves1,Short Gloves
 Gloves,Gloves2,Long Gloves
@@ -309,6 +312,7 @@ Gloves,FingerlessGloves,Fingerless Gloves
 Gloves,GlovesFur,Gloves with Fur
 Gloves,Catsuit,Catsuit Gloves
 Gloves,SeethroughSuit,See-through Gloves
+Gloves,CowPrintedGloves,Cow Printed Gloves
 Glasses,,Glasses
 Glasses,Glasses1,Style 1
 Glasses,Glasses2,Style 2
@@ -354,6 +358,7 @@ TailStraps,WolfTailStrap3,Wolf White Tail Strap
 TailStraps,DemonPlug,Demon Tail
 TailStraps,MouseTailStrap1,Mouse Tail Strap 1
 TailStraps,MouseTailStrap2,Mouse Tail Strap 2
+TailStraps,CowTail,Cow Tail
 Wings,,Wings
 Wings,SuccubusFeather,Succubus Feather 
 Wings,SuccubusWings,Succubus Wings
@@ -590,6 +595,7 @@ ItemButt,BunnyTailPlug2,Brown Bunny Tail Plug
 ItemButt,BunnyTailVibePlug,Bunny Tail Vibe Plug
 ItemButt,EggVibePlugXXL,Egg Vibe Plug XXL
 ItemButt,ShockPlug,Shock Plug
+ItemButt,CowTail,Cow Tail
 ItemPelvis,,Pelvis
 ItemPelvis,StraponPanties,Strap-On Panties
 ItemPelvis,LeatherChastityBelt,Leather Chastity Belt

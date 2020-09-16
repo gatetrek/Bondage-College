@@ -442,7 +442,8 @@ var AssetFemale3DCG = [
 			{ Name: "FootlessSocks1", Value: 15 },
 			{ Name: "ReverseBunnySuit", Fetish: ["Nylon", "Pet"], Priority: 22, Value: 100, BuyGroup: "ReverseBunnySuit" },
 			{ Name: "LeatherSocks1", Fetish: ["Leather"], Value: 20 },
-			{ Name: "Pantyhose2", Fetish: ["Nylon"], Value: 10 }
+			{ Name: "Pantyhose2", Fetish: ["Nylon"], Value: 10 },
+			{ Name: "CowPrintedSocks", Fetish: ["Nylon"], Value: 15 },
 		],
 		Color: ["Default", "#cccccc", "#aaaaaa", "#888888", "#666666", "#444444", "#222222", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
@@ -567,7 +568,8 @@ var AssetFemale3DCG = [
 			{ Name: "HairFeathers1", Value: 10, BuyGroup: "HairFeathers1" },
 			{ Name: "MouseEars1", Fetish: ["Pet"], Value: 20, BuyGroup: "MouseEars1", BodyCosplay: true },
 			{ Name: "MouseEars2", Fetish: ["Pet"], Value: 20, BuyGroup: "MouseEars2", BodyCosplay: true },
-			{ Name: "ElfEars", Value: 20, BuyGroup: "ElfEars", BodyCosplay: true, InheritColor: "BodyUpper" }
+			{ Name: "ElfEars", Value: 20, BuyGroup: "ElfEars", BodyCosplay: true, InheritColor: "BodyUpper" },
+			{ Name: "CowHorns", Fetish: ["Pet"], Fetish: ["Pet"], Value: 15, BuyGroup: "CowHorns", BodyCosplay: true }
 		],
 		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
@@ -611,7 +613,8 @@ var AssetFemale3DCG = [
 			{ Name: "HairFeathers1", Value: -1, BuyGroup: "HairFeathers1" },
 			{ Name: "MouseEars1", Fetish: ["Pet"], Value: 20, BuyGroup: "MouseEars1", BodyCosplay: true },
 			{ Name: "MouseEars2", Fetish: ["Pet"], Value: 20, BuyGroup: "MouseEars2", BodyCosplay: true },
-			{ Name: "ElfEars", Value: 20, BuyGroup: "ElfEars", BodyCosplay: true, InheritColor: "BodyUpper" }
+			{ Name: "ElfEars", Value: 20, BuyGroup: "ElfEars", BodyCosplay: true, InheritColor: "BodyUpper" },
+			{ Name: "CowHorns", Fetish: ["Pet"], Value: -1, BuyGroup: "CowHorns", BodyCosplay: true }
 		],
 		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
@@ -638,7 +641,8 @@ var AssetFemale3DCG = [
 				]
 			},
 			{ Name: "Catsuit", Fetish: ["Nylon"], Value: -1, BuyGroup: "Catsuit" },
-			{ Name: "SeethroughSuit", Fetish: ["Nylon"], Value: -1, BuyGroup: "SeethroughSuit" }
+			{ Name: "SeethroughSuit", Fetish: ["Nylon"], Value: -1, BuyGroup: "SeethroughSuit" },
+			{ Name: "CowPrintedGloves", Value: 15 }
 		],
 		Color: ["Default", "#cccccc", "#aaaaaa", "#888888", "#666666", "#444444", "#222222", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
@@ -692,7 +696,7 @@ var AssetFemale3DCG = [
 		Underwear: true,
 		BodyCosplay: true,
 		Left: 0,
-		Top: 150,
+		Top: 0,
 		AllowPose: ["AllFours"],
 		Asset: [
 			{ Name: "TailStrap", Fetish: ["Pet"], Value: 30 },
@@ -714,7 +718,8 @@ var AssetFemale3DCG = [
 			{ Name: "WolfTailStrap3", Fetish: ["Pet"], Value: 20 },
 			{ Name: "DemonPlug", Fetish: ["Pet"], Value: 30 },
 			{ Name: "MouseTailStrap1", Fetish: ["Pet"], Value: 20 },
-			{ Name: "MouseTailStrap2", Fetish: ["Pet"], Value: 20 }
+			{ Name: "MouseTailStrap2", Fetish: ["Pet"], Value: 20 },
+			{ Name: "CowTail", Fetish: ["Pet"], Value: 20 }
 		],
 		Color: ["Default", "#cccccc", "#aaaaaa", "#888888", "#666666", "#444444", "#222222", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
@@ -1232,6 +1237,7 @@ var AssetFemale3DCG = [
 			{ Name: "BunnyTailVibePlug", Fetish: ["Pet"], Effect: ["IsPlugged", "Egged"], Value: 75, Prerequisite: ["AccessVulva", "AccessVulvaSuitZip"], Time: 10, ExpressionTrigger: [{ Group: "Blush", Name: "Low", Timer: 10 }], AllowEffect: ["Egged", "Vibrating"], Visible: false },
 			{ Name: "EggVibePlugXXL", Effect: ["IsPlugged", "Egged"], Value: 90, Prerequisite: ["AccessVulva", "AccessVulvaSuitZip"], Time: 10, ExpressionTrigger: [{ Group: "Blush", Name: "High", Timer: 10 }], AllowEffect: ["Egged", "Vibrating"], Visible: false },
 			{ Name: "ShockPlug", Fetish: ["Masochism"], Value: 60, Time: 10, Visible: false, Extended: true, AlwaysExtend: true, Prerequisite: ["AccessVulva", "AccessVulvaSuitZip"], ExpressionTrigger: [{ Name: "Low", Group: "Blush", Timer: 10 }], Activity: "ShockItem" },
+			{ Name: "Cowtail", Fetish: ["Pet"], Value: 20, Time: 10, Prerequisite: ["AccessVulva", "AccessVulvaSuitZip"], ExpressionTrigger: [{ Name: "Low", Group: "Blush", Timer: 10 }] },
 			AssetSpankingToys
 		],
 		Color: ["Default"]
