@@ -696,7 +696,7 @@ var AssetFemale3DCG = [
 		Underwear: true,
 		BodyCosplay: true,
 		Left: 0,
-		Top: 0,
+		Top: 150,
 		AllowPose: ["AllFours"],
 		Asset: [
 			{ Name: "TailStrap", Fetish: ["Pet"], Value: 30 },
@@ -718,8 +718,7 @@ var AssetFemale3DCG = [
 			{ Name: "WolfTailStrap3", Fetish: ["Pet"], Value: 20 },
 			{ Name: "DemonPlug", Fetish: ["Pet"], Value: 30 },
 			{ Name: "MouseTailStrap1", Fetish: ["Pet"], Value: 20 },
-			{ Name: "MouseTailStrap2", Fetish: ["Pet"], Value: 20 },
-			{ Name: "CowTail", Fetish: ["Pet"], Value: 20 }
+			{ Name: "MouseTailStrap2", Fetish: ["Pet"], Value: 20 }
 		],
 		Color: ["Default", "#cccccc", "#aaaaaa", "#888888", "#666666", "#444444", "#222222", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
