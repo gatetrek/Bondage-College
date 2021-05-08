@@ -224,6 +224,8 @@ RightAnklet,,Anklet (Right)
 RightAnklet,BandAnklet,Band Anklet
 LeftAnklet,,Anklet (Left)
 LeftAnklet,BandAnklet,Band Anklet
+LeftAnklet,Ribbon,Ribbon
+LeftAnklet,Ribbon1,Ribbon Bow
 Shoes,,Shoes
 Shoes,Shoes1,Style 1
 Shoes,Shoes2,Style 2
@@ -609,6 +611,7 @@ ItemLegs,PlasticWrap,Plastic Wrap
 ItemLegs,FrogtieStraps,Frog-tie Straps
 ItemLegs,MermaidTail, Mermaid Tail
 ItemLegs,MedicalBedRestraints,Medical Bed Restraints
+ItemLegs,Ribbons,Ribbons
 ItemVulva,,Vulva
 ItemVulva,VibratingEgg,Vibrating Egg
 ItemVulva,VibratingWand,Vibrating Wand
@@ -706,6 +709,7 @@ ItemPelvis,LeatherWhip,Leather Whip
 ItemPelvis,HempRope,Rope Harness
 ItemPelvis,DiaperHarness,Diaper Harness
 ItemPelvis,PelvisChainLeash,Pelvis Chain Leash
+ItemPelvis,Ribbons,Ribbons
 ItemTorso,,Torso
 ItemTorso,NylonRopeHarness,Nylon Rope
 ItemTorso,HempRopeHarness,Hemp Rope
@@ -764,6 +768,7 @@ ItemBreast,FuturisticBra2,Futuristic Bra
 ItemBreast,OrnateChastityBra,Ornate Chastity Bra
 ItemBreast,LeatherCrop,Leather Crop
 ItemBreast,LeatherWhip,Leather Whip
+ItemBreast,Ribbons,Ribbons
 ItemArms,,Arms
 ItemArms,NylonRope,Nylon Rope
 ItemArms,HempRope,Hemp Rope
