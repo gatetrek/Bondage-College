@@ -616,7 +616,9 @@ var AssetFemale3DCG = [
 		AllowPose: ["LegsClosed", "Spread"],
 		PreviewZone: [100, 700, 300, 300],
 		Asset: [
-			{ Name: "BandAnklet", BuyGroup: "BandAnklet"}
+			{ Name: "BandAnklet", BuyGroup: "BandAnklet"},
+			{ Name: "Ribbon", Fetish: ["Lingerie"], Value: 30, BuyGroup: "Ribbon" },
+			{ Name: "Ribbon1", Fetish: ["Lingerie"], Value: 30, BuyGroup: "Ribbon" }
 		],
 		Color: ["Default", "#bbbbbb", "#808080", "#202020", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
 	},
@@ -656,14 +658,14 @@ var AssetFemale3DCG = [
 			{ Name: "Sneakers2", Height: 3 },
 			{ Name: "Heels1", Height: 15 },
 			{ Name: "Heels2", Height: 15 },
-			{ Name: "Boots1", Height: 9,
+			{ Name: "Boots1", Height: 9, HideItem: ["LeftAnkletRibbon1", "RightAnkletRibbon1"],
 				Layer: [
 					{ Name: "Shoes", AllowColorize: true},
 					{ Name: "Sides", AllowColorize: true},
 					{ Name: "Laces", AllowColorize: true}
 				]
 			},
-			{ Name: "MistressBoots", Fetish: ["Leather"], Value: -1, HideItem: ["SocksSocks4", "SocksSocks5"], Alpha: [{ Group: ["BodyLower", "Socks", "SuitLower"], Masks: [[75, 875, 350, 200]] }], Height: 35	},
+			{ Name: "MistressBoots", Fetish: ["Leather"], Value: -1, HideItem: ["SocksSocks4", "SocksSocks5", "LeftAnkletRibbon1", "RightAnkletRibbon1"], Alpha: [{ Group: ["BodyLower", "Socks", "SuitLower"], Masks: [[75, 875, 350, 200]] }], Height: 35	},
 			{ Name: "PonyBoots", Fetish: ["Pony"], Value: -1, Alpha: [{ Group: ["BodyLower", "Socks", "SuitLower"], Masks: [[75, 875, 350, 200]] }], Height: 35},
 			{ Name: "Sandals", Priority: 22, Value: 30, HideItem: ["SocksSocks0", "SocksSocks1", "SocksSocks2", "SocksSocks3", "SocksSocks4", "SocksSocks5", "SocksSocks6", "SocksSocksFur"], Height: 3 },
 			{ Name: "SandalsRS", Priority: 22, Value: 30, DefaultColor:["#AA9977", "#999999"], HideItem: ["SocksSocks0", "SocksSocks1", "SocksSocks2", "SocksSocks3", "SocksSocks4", "SocksSocks5", "SocksSocks6", "SocksSocksFur"], Height: 1, Alpha: [{ Group: ["BodyUpper"], Pose: ["Hogtied"], Masks: [[0, 0, 500, 70]] }],
@@ -672,9 +674,9 @@ var AssetFemale3DCG = [
 					{ Name: "Top",  Priority: 22 }
 				]
 			},
-			{ Name: "PawBoots", Fetish: ["Pet"], Value: 45, Height: 3 },
-			{ Name: "WoollyBootsTall", Fetish: ["Pet"], Value: 60, Height: 9 },
-			{ Name: "ThighHighLatexHeels", Fetish: ["Latex"], Value: 80, BuyGroup: "ThighHighLatexHeels",
+			{ Name: "PawBoots", Fetish: ["Pet"], Value: 45, HideItem: ["LeftAnkletRibbon1", "RightAnkletRibbon1"], Height: 3 },
+			{ Name: "WoollyBootsTall", Fetish: ["Pet"], Value: 60, HideItem: ["LeftAnkletRibbon1", "RightAnkletRibbon1"], Height: 9 },
+			{ Name: "ThighHighLatexHeels", Fetish: ["Latex"], Value: 80, HideItem: ["LeftAnkletRibbon1", "RightAnkletRibbon1"], BuyGroup: "ThighHighLatexHeels",
 				Alpha: [
 					{ Group: ["BodyLower", "Socks", "SuitLower"], Masks: [[75, 680, 350, 320]] },
 					{ Group: ["BodyLower", "Socks", "SuitLower"], Pose: ["LegsClosed"], Masks: [[75, 650, 350, 350]] },
@@ -683,13 +685,13 @@ var AssetFemale3DCG = [
 			{ Name: "Heels3", Height: 15, Value: 30 },
 			{ Name: "BarefootSandals1", Hide: ["Socks"], Value: 10, BuyGroup: "BarefootSandals" },
 			{ Name: "LatexAnkleShoes", Fetish: ["Latex"], Value: 60, DefaultColor: ["#373636"], },
-			{ Name: "Flippers", Height: 40, Value: 25, Left: 84,
+			{ Name: "Flippers", Height: 40, Value: 25, HideItem: ["LeftAnkletRibbon1", "RightAnkletRibbon1"], Left: 84,
 				Layer: [
 					{ Name: "Fins",  AllowColorize: true },
 					{ Name: "Shoes",  AllowColorize: false }
 				]
 			},
-			{ Name: "DeluxeBoots", Fetish: ["Leather"], Value: -1, Alpha: [{ Group: ["BodyLower", "Socks", "SuitLower"], Masks: [[180, 900, 50, 100], [280, 900, 50, 100]] }], DefaultColor: ["#9F0D0D", "#700A0A", "#700A0A", "#9F0D0D"], Height: 35,
+			{ Name: "DeluxeBoots", Fetish: ["Leather"], Value: -1, HideItem: ["LeftAnkletRibbon1", "RightAnkletRibbon1"], Alpha: [{ Group: ["BodyLower", "Socks", "SuitLower"], Masks: [[180, 900, 50, 100], [280, 900, 50, 100]] }], DefaultColor: ["#9F0D0D", "#700A0A", "#700A0A", "#9F0D0D"], Height: 35,
 				Layer: [
 					{ Name: "Boots", AllowColorize: true},
 					{ Name: "Laces", AllowColorize: true},
