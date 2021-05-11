@@ -3,7 +3,7 @@
 var InventoryItemPelvisRibbonsOptions = [
 	{
 		Name: "BowWrap",
-		Property: { Type: null, Difficulty: 3 },
+		Property: { Type: null, Difficulty: 3, OverridePriority: 21 },
 	},
 	{
 		Name: "CrotchWrapping",
