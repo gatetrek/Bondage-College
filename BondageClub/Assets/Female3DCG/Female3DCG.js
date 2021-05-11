@@ -2468,6 +2468,7 @@ var AssetFemale3DCG = [
 			},
 			{ Name: "PlasticWrap", Value: 100, Difficulty: 7, SelfBondage: 3, Time: 30, RemoveTime: 25, BuyGroup: "PlasticWrap", SetPose: ["BackElbowTouch"], Block:["ItemBreast","ItemNipples", "ItemNipplesPiercings", "ItemTorso"], Hide: ["Cloth", "ClothAccessory"], Effect: ["Block", "Prone"]},
 			{ Name: "WrappedBlanket", Extended: true, Value: -1, Difficulty: 15, SelfBondage: 3, Time: 40, RemoveTime: 30, Random: false, BuyGroup: "Bed", Prerequisite: ["NotSuspended", "NotHogtied", "NotKneelingSpread", "NoFeetSpreader"], Hide: ["Shoes", "Socks", "Cloth", "ClothLower", "Bra", "ItemNipplesPiercings", "ItemLegs"], HideItem: ["ItemFeetOrnateAnkleCuffs", "ItemFeetNylonRope", "ItemFeetHempRope", "ItemFeetLeatherBelt", "ItemFeetIrish8Cuffs", "ItemFeetDuctTape", "ItemFeetLeatherAnkleCuffs", "ItemNipplesLactationPump"], AllowPose: ["Kneel"], SetPose: ["BackElbowTouch", "LegsClosed"], Effect: ["Block", "Prone"], Block: ["ItemPelvis", "ItemTorso", "ItemBreast", "ItemHands", "ItemFeet", "ItemNipples", "ItemNipplesPiercings", "ItemVulva", "ItemVulvaPiercings", "ItemLegs", "ItemButt"], AllowType: ["ShouldersWrapped", "FeetWrapped", "FullWrapped"] },
+			{ Name: "Ribbons", Fetish: ["Lingerie"], Value: 30, Difficulty: 10, SelfBondage: 2, Time: 20, RemoveTime: 20, BuyGroup: "Ribbon", Hide: ["Cloth"], SetPose: ["BackBoxTie"] },
 			AssetSpankingToys
 		],
 		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"],
@@ -3682,7 +3683,7 @@ var AssetFemale3DCG = [
 					{ Name: "Tube", Priority: 56, AllowColorize: true },
 				]
 			},
-			{ Name: "Ribbons", Fetish: ["Lingerie"], Value: 30, Difficulty: 5, Time: 10, RemoveTime: 10, BuyGroup: "Ribbon", Hide: ["Glasses", "Mask"], Effect: ["BlindNormal", "Prone"] },
+			{ Name: "Ribbons", Fetish: ["Lingerie"], Value: 30, Difficulty: 5, Time: 10, RemoveTime: 5, BuyGroup: "Ribbon", Hide: ["Glasses", "Mask"], AllowEffect: ["BlindLight", "BlindNormal", "Prone"], AllowType: ["Wrap"], Effect: ["BlindLight", "Prone"], Extended: true },
 			AssetSpankingToys
 		],
 		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"]
