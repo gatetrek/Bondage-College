@@ -9,6 +9,10 @@ var InventoryItemLegsRibbonsOptions = [
 		Name: "MessyWrap",
 		Property: { Type: "MessyWrap", Difficulty: 4 },
 	},
+	{
+		Name: "Cross",
+		Property: { Type: "Cross", Difficulty: 5 },
+	},
 ];
 
 // Loads the item extension properties
