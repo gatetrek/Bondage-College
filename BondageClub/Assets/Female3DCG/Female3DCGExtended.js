@@ -656,7 +656,7 @@ var AssetFemale3DCGExtended = {
 				},
 			},
 		}, // FunnelGag
-    HarnessPonyBits: {
+		HarnessPonyBits: {
 			Archetype: ExtendedArchetype.TYPED,
 			Config: {
 				Options: [
