@@ -134,6 +134,28 @@ var AssetFemale3DCGExtended = {
 				},
 			},
 		}, // CeilingShackles
+		SteelCuffs: {
+			Archetype: ExtendedArchetype.TYPED,
+			Config: {
+				Options: [
+					{
+						Name: "None",
+						Property: { Type: null }
+					},
+					{
+						Name: "Wrist",
+						Property: {
+							Type: "Wrist",
+							Effect: ["Block", "Prone"],
+							SetPose: ["BackBoxTie"]
+						}
+					}
+				],
+				Dialog: {
+					Load: "SelectBondagePosition"
+				}
+			}
+		}, // SteelCuffs
 		BitchSuit: {
 			Archetype: ExtendedArchetype.TYPED,
 			Config: {
@@ -156,6 +178,18 @@ var AssetFemale3DCGExtended = {
 			},
 		}, // BitchSuit
 	}, // ItemArms
+	ItemNeck: {
+		ShinySteelCollar: {
+			Archetype: ExtendedArchetype.TYPED,
+			Config: {
+				Options: [
+					{ Name: "NoRing", Property: { Type: null } },
+					{ Name: "Ring", Property: { Type: "Ring" } }
+				],
+				DrawImages: false
+			}
+		} // ShinySteelCollar
+	}, // ItemNeck
 	ItemHood: {
 		KirugumiMask: {
 			Archetype: ExtendedArchetype.MODULAR,
@@ -622,7 +656,28 @@ var AssetFemale3DCGExtended = {
 				},
 			},
 		}, // FunnelGag
-		Ribbons: {
+    HarnessPonyBits: {
+			Archetype: ExtendedArchetype.TYPED,
+			Config: {
+				Options: [
+					{
+						Name: "Detached",
+						Property: {
+							Type: "Detached",
+							Effect: ["OpenMouth"]
+						},
+					},
+					{
+						Name: "Attached",
+						Property: {
+							Type: null,
+							Effect: ["BlockMouth", "GagLight"]
+						},
+					},
+				],
+			},
+		}, // PonyBit
+    Ribbons: {
 			Archetype: ExtendedArchetype.TYPED,
 			Config: {
 				Options: [
@@ -646,8 +701,8 @@ var AssetFemale3DCGExtended = {
 					TypePrefix: "RibbonType",
 					ChatPrefix: "RibbonsGagSet",
 				},
-		    },
-        },
+			},
+		}, // Ribbons
 	}, // ItemMouth
 	ItemMouth2: {
 		ClothGag: {
@@ -730,6 +785,31 @@ var AssetFemale3DCGExtended = {
 			}
 		} // BunnyMask1
 	}, // Mask
+	ItemFeet: {
+		SteelAnkleCuffs: {
+			Archetype: ExtendedArchetype.TYPED,
+			Config: {
+				Options: [
+					{
+						Name: "None",
+						Property: {	Type: null }
+					},
+					{
+						Name: "Closed",
+						Property: {
+							Type: "Closed",
+							Effect: ["Prone", "Freeze"],
+							SetPose: ["LegsClosed"],
+							FreezeActivePose: ["BodyLower"]
+						}
+					}
+				],
+				Dialog: {
+					Load: "SelectBondagePosition"
+				}
+			}
+		} // SteelAnkleCuffs
+	}, // ItemFeet
 	ItemMisc: {
 		ServingTray: {
 			Archetype: ExtendedArchetype.TYPED,
