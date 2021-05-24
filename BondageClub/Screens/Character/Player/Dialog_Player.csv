@@ -2044,6 +2044,10 @@ RibbonsTorsoHarness2,,,Harness 2,,
 TorsoRibbonsSetBasic,,,SourceCharacter uses some ribbons on DestinationCharacter belly.,,
 TorsoRibbonsSetHarness1,,,SourceCharacter uses some ribbons on DestinationCharacter torso.,,
 TorsoRibbonsSetHarness2,,,SourceCharacter uses some ribbons on DestinationCharacter torso.,,
+RibbonTypeBasic,,,Basic,,
+RibbonTypeBow,,,Bow,,
+RibbonsGagSetBasic,,,SourceCharacter uses some ribbon on DestinationCharacter mouth.,,,
+RibbonsGagSetBow,,,SourceCharacter  uses some ribbon on DestinationCharacter mouth with a bow to finish it.,,,
 ItemMiscServingTraySelect,,,Add or remove drinks from the tray,,
 ItemMiscServingTrayEmpty,,,Empty
 ItemMiscServingTrayFull,,,Full
