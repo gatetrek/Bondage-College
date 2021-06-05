@@ -165,7 +165,7 @@ var AssetFemale3DCG = [
 				]
 			},
 			{
-			    Name: "SummerDress", Value: 75, Hide: ["ItemNipples", "ItemNipplesPiercings"],
+				Name: "SummerDress", Value: 75, Hide: ["ItemNipples", "ItemNipplesPiercings"],
 				Layer: [
 					{ Name: "Base" },
 					{ Name: "Layer4" },
