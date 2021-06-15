@@ -3306,6 +3306,7 @@ var AssetFemale3DCG = [
 				Layer: [
 					{ Name: "Mask" },
 					{ Name: "Straps" },
+					{ Name: "Belts" },
 				]
 			},
 			{
@@ -3549,6 +3550,7 @@ var AssetFemale3DCG = [
 				Layer: [
 					{ Name: "Mask" },
 					{ Name: "Straps" },
+					{ Name: "Belts" },
 				]
 			},
 			{
@@ -3771,10 +3773,11 @@ var AssetFemale3DCG = [
 			},
 			{ Name: "RegressedMilk", Category: ["ABDL"], Fetish: ["ABDL"], Value: -1, Time: 10, IsRestraint: false,Random: false, Visible: false, BuyGroup: "RegressedMilk", Block: [], Effect: ["RegressedTalk"], ExpressionTrigger: [{ Name: "DroolSides", Group: "Fluids", Timer: 30 }] },
 			{
-				Name: "PrisonLockdownGag", Value: -1, Difficulty: 5, Time: 20, AllowLock: true, BuyGroup: "PrisonLockdownSuit", Prerequisite: "GagFlat", DefaultColor: "#8c4309", Hide: ["Mouth"], HideItem: ["ItemNoseNoseRing"],
+				Name: "PrisonLockdownGag", Value: -1, Difficulty: 5, Time: 20, AllowLock: true, BuyGroup: "PrisonLockdownSuit", Prerequisite: "GagFlat", DefaultColor: ["#8c4309", "Default"], Hide: ["Mouth"], HideItem: ["ItemNoseNoseRing"],
 				Layer: [
 					{ Name: "Mask" },
 					{ Name: "Straps" },
+					{ Name: "Belts" },
 				]
 			},
 			{
